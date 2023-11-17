@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+main {
+  font-family: "Roboto", sans-serif;
+}
+main .hero header nav ul li a {
+  font-weight: 500;
+}
+main .hero header nav ul button {
+  font-weight: 500;
+}
+main .hero header .cart .left-part p {
+  font-weight: 400;
+}
+
+main .hero {
+  padding: 4vh 16vw;
+}
+main .hero header nav {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #BE3144;
+}
+main .hero header nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main .hero header nav ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  height: 3%;
+  padding: 1%;
+  border-radius: 15px;
+  transition: all 0.2s ease;
+  background-color: #F05941;
+}
+main .hero header nav ul li a {
+  color: #22092C;
+}
+main .hero header nav ul li:hover {
+  background-color: #872341;
+  cursor: pointer;
+  border-bottom: #22092C solid 1px;
+}
+main .hero header nav ul button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  height: 3%;
+  padding: 1%;
+  border-radius: 15px;
+  transition: all 0.2s ease;
+  background-color: #F05941;
+  border: none;
+  font-size: 16px;
+}
+main .hero header nav ul button:hover {
+  background-color: #872341;
+  cursor: pointer;
+  border-bottom: #22092C solid 1px;
+}
+main .hero header .cart {
+  width: 100%;
+  height: 40vh;
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  background-color: #BE3144;
+  border-radius: 20px;
+}
+main .hero header .cart .left-part {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: space-between;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+}
+main .hero header .cart .left-part button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 15%;
+  padding: 1%;
+  border-radius: 15px;
+  transition: all 0.2s ease;
+  background-color: #F05941;
+  border: none;
+  font-size: 16px;
+}
+main .hero header .cart .left-part button:hover {
+  background-color: #872341;
+  cursor: pointer;
+  border-bottom: #22092C solid 1px;
+}
+main .hero header .cart .right-part {
+  width: 50%;
+  height: 100%;
+}
+main .hero header .cart .right-part img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

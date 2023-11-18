@@ -12,10 +12,10 @@ $texts-color:#22092C;
     @include flex(center,center);
     width: $width;
     height: $height ;
+    font-family: 'Roboto', sans-serif;
     padding: 1%;
     border-radius: 15px;
     transition: all 0.2s ease;
-    font-family: 'Roboto', sans-serif;
     background-color: $sub-color ;
 }
 @mixin button-hover{
